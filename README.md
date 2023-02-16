@@ -17,6 +17,7 @@ No installations are required. Simply visit the website and you will be able to 
 * React Hooks (State Hook and Effect Hook) using React
 * API requests using Axios
 * Calendar module from "react-calendar"
+* Input validation
 
 ## Usage
 1. Visit the website
