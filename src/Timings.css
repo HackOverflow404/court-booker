@@ -1,0 +1,61 @@
+.timings-choice-panel {
+    display: flex;
+    flex-direction: column;
+  
+    height: 100%;
+    width: 100%;
+  
+    margin: 0%;
+  
+    align-items: center;
+  }
+  
+  .timing-radio-button {
+    display: flex;
+    align-items: center;
+    
+    min-height: 3em;
+    width: 75%;
+    
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 0.75em;
+    border-color: white;
+    
+    background-color: white;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.2);
+    
+    margin: 1em;
+    flex: 1;
+    
+    place-content: center;
+    
+    font-size: large;
+    
+    cursor: pointer;
+  }
+  
+  .timing-radio-button:hover {
+    background-color: #F0F0F0;
+    border-color: #F0F0F0;
+  }
+  
+  #first-label {
+    margin-top: 2em;
+  }
+  
+  #last-label {
+    margin-bottom: 2em;
+  }
+  
+  input {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  .timing-radio-button:has(input:checked) {
+    background-color: #3D85F7;
+    border-color: #3D85F7;
+    color: white;
+  }
+  
